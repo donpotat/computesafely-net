@@ -7,15 +7,7 @@ export default function ShareButtons() {
   return (
     <Container>
       <a
-        href="https://www.facebook.com/sharer/sharer.php?u=https://securitycheckli.st"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FacebookButton>Share</FacebookButton>
-      </a>
-
-      <a
-        href="http://twitter.com/share?text=Check out Security Checklist, a checklist to help people stay safe online&url=https://securitycheckli.st"
+        href="http://twitter.com/share?text=Check out Compute Safely, a checklist to help people stay safe online&url=https://securitycheckli.st"
         target="_blank"
         rel="noopener noreferrer"
       >

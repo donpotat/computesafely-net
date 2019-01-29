@@ -6,26 +6,35 @@ import Icon from '../Icon';
 export default function Footer() {
   return (
     <Container data-cy="footer">
-      <Icons>
-        <a
-          href="https://github.com/brianlovin/security-checklist"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Icon glyph="github" />
-        </a>
-      </Icons>
-
       <Description>
-        Copyright whenever. This is
         <a
-          href="https://github.com/brianlovin/security-checklist"
+            href="https://creativecommons.org/share-your-work/public-domain/cc0/"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+          CC0 - No Rights Reserved.
+        </a>
+
+        &nbsp;Original idea from 
+        
+        <a
+          href="https://github.com/brianlovin/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          open source
+          Brian Lovin.
         </a>
-        .
+
+        &nbsp;A version of 
+        
+        <a
+          href="https://javi.pro/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Javier Sánchez.
+        </a>
+        
       </Description>
     </Container>
   );

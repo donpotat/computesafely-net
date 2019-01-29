@@ -21,11 +21,9 @@ class Index extends React.Component<{}> {
     return (
       <Page>
         <SectionHeading>
-          <Heading>Be safe on the internet.</Heading>
+          <Heading>Compute Safely</Heading>
           <Subheading>
-            An open source checklist of resources designed to improve your
-            online privacy and security. Check things off to keep track as you
-            go.
+            With both governments and corporate entities trampling over the privacy rights of people throughout much of the world, choosing the right tools is now more important than ever.
           </Subheading>
         </SectionHeading>
 

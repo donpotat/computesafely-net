@@ -225,47 +225,6 @@ export const ButtonSegmentRow = styled.div`
   }
 `;
 
-export const FacebookButton = styled.button`
-  ${base}
-  border: 1px solid ${theme.social.facebook};
-  color: ${theme.bg.default};
-  background-color: ${theme.social.facebook};
-  background-image: ${props =>
-    `linear-gradient(to bottom, ${props.theme.social.facebook}, ${
-      props.theme.social.facebook
-    })`};
-  text-shadow: 0 1px 1px rgba(0,0,0,0.08);
-
-  .icon {
-    margin-right: 8px;
-    margin-left: -4px;
-  }
-
-  &:hover {
-    color: ${theme.text.reverse};
-    background-image: ${props =>
-      `linear-gradient(to bottom, ${tint(
-        props.theme.social.facebook,
-        16
-      )}, ${tint(props.theme.social.facebook, 16)})`};
-    box-shadow: ${props => (props.disabled ? 'none' : theme.shadows.button)};
-  }
-
-  &:active {
-    border: 1px solid ${theme.social.facebook};
-    background-image: ${props =>
-      `linear-gradient(to top, ${props.theme.social.facebook}, ${
-        props.theme.social.facebook
-      })`};
-  }
-
-  &:focus {
-    box-shadow: 0 0 0 1px ${props =>
-      props.theme.bg.default}, 0 0 0 3px ${props =>
-  hexa(props.theme.social.facebook, 0.16)};
-  }
-`;
-
 export const TwitterButton = styled.button`
   ${base}
   border: 1px solid ${theme.social.twitter};

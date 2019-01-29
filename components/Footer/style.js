@@ -11,10 +11,8 @@ export const Container = styled.div`
 export const Description = styled.p`
   font-size: 14px;
   color: ${theme.text.tertiary};
-  max-width: 320px;
-  display: flex;
-  flex: 1 0 auto;
-  align-items: flex-start;
+  width: 100%;
+  text-align: center;
   padding-bottom: 16px;
 
   a {
