@@ -1,7 +1,7 @@
 {
-  "name": "security-checklist",
-  "version": "0.1.0",
-  "description": "A checklist for staying safe on the internet",
+  "name": "computesafely",
+  "version": "0.1.1",
+  "description": "With both governments and corporate entities trampling over the privacy rights of people throughout much of the world, choosing the right tools is now more important than ever.",
   "scripts": {
     "now-build": "next build",
     "dev": "next",
@@ -57,16 +57,5 @@
       "eslint --fix",
       "git add"
     ]
-  },
-  "pre-commit": "lint:staged",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/brianlovin/security-checklist.git"
-  },
-  "author": "Brian Lovin",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/brianlovin/security-checklist/issues"
-  },
-  "homepage": "https://github.com/brianlovin/security-checklist#readme"
+  }
 }

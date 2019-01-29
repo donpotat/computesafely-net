@@ -28,7 +28,7 @@ export default function Footer() {
         &nbsp;A version of 
         
         <a
-          href="https://javi.pro/"
+          href="https://www.javi.pro/"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -10,18 +10,7 @@ describe('Home', () => {
       .scrollIntoView()
       .should('be.visible');
 
-    cy.get(`[href="https://github.com/brianlovin/security-checklist"]`).should(
-      'be.visible'
-    );
-  });
-
-  it('should render header', () => {
-    cy.get('[data-cy="header"]')
-      .scrollIntoView()
-      .should('be.visible');
-
-    cy.get(`[href="/about"]`).should('be.visible');
-    cy.get(`[href="https://github.com/brianlovin/security-checklist"]`).should(
+    cy.get(`[href="https://creativecommons.org/share-your-work/public-domain/cc0/"]`).should(
       'be.visible'
     );
   });

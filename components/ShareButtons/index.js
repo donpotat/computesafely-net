@@ -1,6 +1,6 @@
 // @flow
 import * as React from 'react';
-import { FacebookButton, TwitterButton, CopyLinkButton } from '../Button';
+import { TwitterButton, CopyLinkButton } from '../Button';
 
 import { Container } from './style';
 
