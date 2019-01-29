@@ -5,7 +5,6 @@ import type { Node } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { throttle } from 'throttle-debounce';
 import Icon from '../Icon';
-import Header from '../Header';
 import Footer from '../Footer';
 import { theme } from '../theme';
 import {
@@ -71,7 +70,7 @@ export default function Page(props: Props) {
   return (
     <ThemeProvider theme={theme}>
       <Container>
-        <Header showHeaderShadow={showHeaderShadow} />
+      
         <InnerContainer>{children}</InnerContainer>
         <Footer />
         <ScrollToTop isVisible={scrollToTopVisible} onClick={scrollToTop}>

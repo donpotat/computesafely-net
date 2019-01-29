@@ -20,6 +20,8 @@ class Index extends React.Component<{}> {
   render() {
     return (
       <Page>
+
+
         <SectionHeading>
           <Heading>Compute Safely</Heading>
           <Subheading>

@@ -18,7 +18,7 @@ export const InnerContainer = styled.div`
   align-items: flex-start;
   justify-content: flex-start;
   flex: 1 0 auto;
-  padding-top: 64px;
+  padding-top: 20px;
   padding-left: 32px;
   padding-right: 32px;
   position: relative;
@@ -30,7 +30,6 @@ export const InnerContainer = styled.div`
     max-width: 100%;
     padding-left: 16px;
     padding-right: 16px;
-    padding-top: 48px;
   }
 `;
 
