@@ -46,6 +46,32 @@ export default {
       },
     },
     {
+      name: 'Mailbox.org',
+      image: '/static/img/mailbox.jpg',
+      url: 'https://mailbox.com/',
+      sources: {
+        windows: 'https://mailbox.com/',
+        macos: 'https://mailbox.com/',
+        ios: 'https://kb.mailbox.org/display/MBOKBEN/Setup+with+Mail.app+for+iOS',
+        android:
+          'https://kb.mailbox.org/display/MBOKBEN/Setup+with+K-9+Mail+for+Android',
+        linux: 'https://mailbox.com/'
+      },
+    },
+    {
+      name: 'Posteo',
+      image: '/static/img/posteo.jpg',
+      url: 'https://posteo.de/en/',
+      sources: {
+        windows: 'https://posteo.de/en/',
+        macos: 'https://posteo.de/en/',
+        ios: 'https://posteo.de/en/help/how-do-i-set-up-posteo-on-an-iphone-ipad-or-ipod',
+        android:
+          'https://posteo.de/en/help/how-do-i-set-up-posteo-in-android',
+        linux: 'https://posteo.de/en/'
+      },
+    },
+    {
       name: 'Burner Mail',
       image: '/static/img/burnermail.jpg',
       url: 'https://burnermail.io/',
