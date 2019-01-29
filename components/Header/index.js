@@ -16,24 +16,18 @@ export default function Header(props: Props) {
     <Container showHeaderShadow={showHeaderShadow} data-cy="header">
       <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center' }}>
-          <Label>Security Checklist</Label>
+          <Label>Compute Safely</Label>
           <Logo />
         </a>
       </Link>
 
       <ButtonRowContainer>
-        <Link href="/about">
-          <a>
-            <GhostButton>About</GhostButton>
-          </a>
-        </Link>
-
         <a
-          href="https://github.com/brianlovin/security-checklist"
+          href="https://TBCLINK"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <PrimaryButton>Contribute</PrimaryButton>
+          <PrimaryButton>Collaborate</PrimaryButton>
         </a>
       </ButtonRowContainer>
     </Container>
