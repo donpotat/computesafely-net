@@ -11,7 +11,7 @@ export default {
     defaultImageHeight: 512,
     images: [
       {
-        url: 'https://securitycheckli.st/static/og-image.png',
+        url: 'https://www.computesafely.net/static/og-image.png',
         width: 512,
         height: 512,
         alt: 'Compute Safely',

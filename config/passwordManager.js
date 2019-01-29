@@ -3,7 +3,7 @@ export default {
   title: 'Use a password manager',
   description: `A password manager helps you create a unique password for each online service you use. Having a unique password ensures that if one service you use is hacked, the compromised password won’t allow access to all of your other accounts.
 
-    \n\nAt the very minimum, you should have a unique password for high-value accounts like Google, Apple, email, and banking accounts.
+    \n\nAt the very minimum, you should have a unique password for high-value accounts like youe email, social media and banking accounts.
   `,
   apps: [
     {
