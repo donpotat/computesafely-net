@@ -8,7 +8,7 @@ import { GlobalStyles } from '../static/normalize';
 import defaultSEO from '../config/next-seo.js';
 
 const SENTRY_PUBLIC_DSN =
-  'https://42334f0365364b63bc57f4245d111b87@sentry.io/1370339';
+  'https://19871883bd88406094990ae73a4dff3f@sentry.io/1382217';
 
 class SecurityChecklistApp extends App {
   constructor() {
@@ -32,7 +32,7 @@ class SecurityChecklistApp extends App {
 
   componentDidMount() {
     Sentry.init({
-      dsn: 'https://b92b29b696884e5798e161962eac36de@sentry.io/1318151',
+      dsn: 'https://19871883bd88406094990ae73a4dff3f@sentry.io/1382217',
     });
   }
 
@@ -48,7 +48,7 @@ class SecurityChecklistApp extends App {
 
           <meta
             name="description"
-            content="A checklist for staying safe on the internet"
+            content="With both governments and corporate entities trampling over the privacy rights of people throughout much of the world, choosing the right tools is now more important than ever."
           />
 
           <link

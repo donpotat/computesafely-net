@@ -15,7 +15,7 @@ export default function Footer() {
           CC0 - No Rights Reserved.
         </a>
 
-        &nbsp;Original idea from 
+        &nbsp; Original idea from 
         
         <a
           href="https://github.com/brianlovin/"
