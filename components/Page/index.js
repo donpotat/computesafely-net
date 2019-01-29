@@ -15,7 +15,6 @@ import {
   InnerContainer,
   ScrollToTop,
 } from './style';
-import * as gtag from '../../lib/gtag';
 
 export { SectionHeading, Heading, Subheading };
 
@@ -56,16 +55,6 @@ export default function Page(props: Props) {
       }
     };
   }, []);
-
-  useEffect(() => {
-    if (document) {
-      const newLocation = document.location.pathname;
-      if (newLocation !== lastTrackedPageview) {
-        gtag.pageview(document.location.pathname);
-        setLastTrackedPageview(newLocation);
-      }
-    }
-  });
 
   return (
     <ThemeProvider theme={theme}>
