@@ -18,6 +18,6 @@ export const CardContent = styled.div`
 export const TopBorder = styled.div`
   width: 100%;
   height: 4px;
-  background-image: linear-gradient(to left, #a913de, #6ac9ff);
+  background-color: #18ca92;
   border-radius: 6px 6px 0 0;
 `;

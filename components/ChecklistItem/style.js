@@ -83,7 +83,7 @@ export const Checkbox = styled.span`
   position: relative;
   background-image: ${props =>
     props.isChecked
-      ? 'radial-gradient(circle at top right, #a913de, #6ac9ff)'
+      ? 'radial-gradient(circle at top right, #18ca92, #18ca92)'
       : 'none'};
   box-shadow: ${props =>
     props.isChecked ? 'inset 0 0 1px rgba(0,0,0,0.4)' : 'none'};
@@ -93,7 +93,7 @@ export const Checkbox = styled.span`
     background: ${theme.bg.default};
     background-image: ${props =>
       props.isChecked
-        ? 'radial-gradient(circle at top right, #a913de, #6ac9ff)'
+        ? 'radial-gradient(circle at top right, #18ca92, #18ca92)'
         : 'none'};
   }
 
@@ -388,7 +388,7 @@ export const LeftBorder = styled.div`
   bottom: 0;
   height: 100px;
   width: 4px;
-  background-image: linear-gradient(to bottom, #a913de, #6ac9ff);
+  background-image: linear-gradient(to bottom, #18ca92, #18ca92);
   border-radius: 6px 0 0 6px;
 `;
 

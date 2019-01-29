@@ -14,7 +14,7 @@ export const theme = {
     placeholder: '#91989F',
   },
   brand: {
-    default: '#067AE4',
+    default: '#181179',
     alt: '#0684F8',
   },
   social: {
