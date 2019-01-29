@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import { theme } from '../theme';
 
 export const Container = styled.div`
-  margin-top: 128px;
-  padding: 0 16px;
+  margin-top: 80px;
+  padding: 0 16px 30px 0px ;
   width: 100%;
 `;
 
