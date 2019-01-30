@@ -7,30 +7,15 @@ export default {
     `,
   apps: [
     {
-      name: 'Brave',
-      image: '/static/img/brave.jpg',
-      url: 'https://brave.com/',
-      sources: {
-        windows: 'https://laptop-updates.brave.com/latest/winx64',
-        macos: 'https://laptop-updates.brave.com/latest/osx',
-        ios:
-          'https://geo.itunes.apple.com/us/app/brave-web-browser/id1052879175?mt=8',
-        android:
-          'https://play.google.com/store/apps/details?id=com.brave.browser&hl=en',
-        linux:
-          'https://brave-browser.readthedocs.io/en/latest/installing-brave.html#linux',
-      },
-    },
-    {
       name: 'Firefox',
       image: '/static/img/firefox.jpg',
-      url: 'https://www.mozilla.org/en-US/firefox/',
+      url: 'https://www.mozilla.org/en-GB/firefox/',
       sources: {
-        windows: 'https://www.mozilla.org/en-US/firefox/',
-        macos: 'https://www.mozilla.org/en-US/firefox/',
-        ios: 'https://www.mozilla.org/en-US/firefox/mobile/',
-        android: 'https://www.mozilla.org/en-US/firefox/mobile/',
-        linux: 'https://support.mozilla.org/en-US/kb/install-firefox-linux',
+        windows: 'https://www.mozilla.org/en-GB/firefox/',
+        macos: 'https://www.mozilla.org/en-GB/firefox/',
+        ios: 'https://www.mozilla.org/en-GB/firefox/mobile/',
+        android: 'https://www.mozilla.org/en-GB/firefox/mobile/',
+        linux: 'https://support.mozilla.org/en-GB/kb/install-firefox-linux',
       },
     },
     {
@@ -43,25 +28,15 @@ export default {
       },
     },
     {
-      name: 'Tor',
+      name: 'Tor Browser',
       image: '/static/img/tor.png',
-      url: 'https://www.torproject.org/',
+      url: 'https://www.torproject.org/projects/torbrowser.html',
       sources: {
         windows:
-          'https://www.torproject.org/download/download-easy.html#windows',
-        macos: 'https://www.torproject.org/download/download-easy.html#mac',
-        linux: 'https://www.torproject.org/download/download-easy.html#linux',
+          'https://www.torproject.org/projects/torbrowser.html#windows',
+        macos: 'https://www.torproject.org/projects/torbrowser.html#macosx',
+        linux: 'https://www.torproject.org/projects/torbrowser.html#linux',
         android: 'https://play.google.com/store/apps/details?id=org.torproject.torbrowser_alpha',
-      },
-    },
-    {
-      name: 'Vivaldi',
-      image: '/static/img/vivaldi.png',
-      url: 'https://www.vivaldi.com/',
-      sources: {
-        windows: 'https://vivaldi.com/download/',
-        macos: 'https://vivaldi.com/download/',
-        linux: 'https://vivaldi.com/download/',
       },
     },
     {
